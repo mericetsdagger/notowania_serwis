@@ -1,0 +1,121 @@
+body
+{
+	margin: 0;
+	background-color: #edeff2;
+	font-family: Verdana;
+	color: #202328
+}
+
+#main
+{
+	width: 100%;
+}
+
+#nav
+{
+	width: 100%;
+	height: 40px;
+	padding: 10px 0;
+	background-color: #202328;
+	text-align: center;
+	color: white;
+	
+}
+
+
+.nav_opt
+{
+	
+	padding: 0;
+	text-align: center;
+    width: 150px;
+	height: 40px;
+	display: inline-block;
+	line-height: 200%;
+	
+}
+
+.nav_opt:hover
+{
+	background-color: #2e333a;
+	border-radius: 5px;
+}
+
+#content
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.sticky
+{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
+
+a
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+.error 
+{
+	color: red;
+}
+.title
+{
+	padding: 15px;
+	text-align: center;
+}
+.content2
+{
+	text-align: center;
+}
+.tableLog
+{
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+}
+.inputs
+{
+	padding: 5px;
+}
+input[type=submit] 
+{
+    padding:5px 15px; 
+    background-color: #202328; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+	color: #edeff2;
+}
+input[type=submit]:hover
+{
+	background-color: #2e333a;
+}
+input[type=text] {
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=text]:focus {
+    border-color: #2e333a;
+}
+input[type=password] {
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=password]:focus {
+    border-color: #2e333a;
+}
